@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 0 solid #ddd;
+    border-radius: 3px;
+}
+
+div strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Estilos específicos para las tasas de cambio */
+#dolarBlueAsk, #dolarBlueBid, #criptoCCBAsk, #criptoCCBBid,
+#mepAL30 {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: #ffffff;
+}
